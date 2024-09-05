@@ -30,7 +30,7 @@ yarn build:production
 # Assign permissions
 chown -R www-data:www-data /var/www/pterodactyl/*
 
-# Exit script
+# Exit scrip
 clear
 php artisan up
 echo "Jexactyl Installer | plugin-manager-addon has been installed and your Panel has been built."
